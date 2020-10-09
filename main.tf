@@ -11,5 +11,5 @@ variable "aws_secret_key" {}
 
 resource "aws_s3_bucket" "testing" {
   bucket = "security-mountaineering-lab-team2"
-  acl    = "public-read"
+  acl    = "private"
 }
